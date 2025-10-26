@@ -3,22 +3,22 @@ import './App.css'
 function App() {
   const posts = [
     {
-      title: 'Why Hello World Matters',
+      title: 'Rice Bowl Formulas for All-Day Energy',
       date: 'May 10, 2024',
       excerpt:
-        'A first greeting is a promise that more stories are on the way. Here is what you can expect from this space.',
+        'Discover three grain-to-veggie ratios that keep rice bowls light, satisfying, and packed with steady fuel.',
     },
     {
-      title: 'Building Healthy Habits',
+      title: 'Chicken Prep That Stays Juicy',
       date: 'April 28, 2024',
       excerpt:
-        'From simple meal planning to mindful moments, let’s explore small steps that lead to big changes.',
+        'Marinade guides and reheating tricks show how to stretch one batch of chicken across protein-rich meals.',
     },
     {
-      title: 'Favorite Seasonal Recipes',
+      title: 'Broccoli Boosters for Every Plate',
       date: 'April 17, 2024',
       excerpt:
-        'Fresh, vibrant, and easy to prep—these recipes keep your plate colorful and your routine stress-free.',
+        'Steam, roast, or stir-fry—each method unlocks nutrients and flavors that round out your macro-friendly menu.',
     },
   ]
 
@@ -26,30 +26,31 @@ function App() {
     <div className="page">
       <header className="hero">
         <p className="hero__eyebrow">Nutri-Static Blog</p>
-        <h1>Hello, World</h1>
+        <h1>Nourishing Plates with Rice, Chicken & Broccoli</h1>
         <p className="hero__tagline">
-          Welcome to a fresh space for bite-sized notes on nutrition, routines,
-          and feeling good every day.
+          Step into a welcoming kitchen where we turn everyday rice, juicy chicken,
+          and vibrant broccoli into balanced, energizing meals.
         </p>
       </header>
 
       <main className="layout">
         <article className="post">
-          <h2>Starting Anew</h2>
+          <h2>Balancing Meals with Everyday Staples</h2>
           <p>
-            Every blog begins with a hello. This one is no different, but I want
-            that greeting to feel like a deep breath. Think of this space as a
-            quiet corner where we explore the everyday choices that keep us
-            balanced.
+            Rice, chicken, and broccoli might look simple, yet together they form a
+            reliable blueprint for nourishing plates. Each bite layers slow-burning
+            energy, lean protein, and crisp fiber so you can fuel busy days without
+            overthinking what belongs on the table.
           </p>
           <blockquote>
-            The simplest commitments—drinking more water, stretching between
-            meetings, pausing for a mindful snack—add up to a healthier rhythm.
+            Aim for a palm of grilled chicken, a cupped hand of warm rice, and two
+            handfuls of broccoli—this trio lands close to a 40/30/30 balance of
+            carbs, protein, and fiber-rich veggies without tracking macros.
           </blockquote>
           <p>
-            Expect short reads, friendly recipes, and practical frameworks that
-            make it easier to nourish yourself. I hope you leave each visit with
-            one idea worth trying before the next hello.
+            Through weekly meal plans, prep-friendly tips, and flavor swaps, we will
+            show how this trio flexes for different goals—from post-workout bowls to
+            cozy family dinners—while keeping the nutrition math effortless.
           </p>
         </article>
 
