@@ -4,7 +4,7 @@
   line-height: 1.6;
   font-weight: 400;
   color: #1f2933;
-  background-color: #f1f5f9;
+  background-color: #d6e4ff;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,7 +18,7 @@
 
 body {
   margin: 0;
-  background-color: #e2e8f0;
+  background-color: #d6e4ff;
 }
 
 #root {
