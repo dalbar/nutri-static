@@ -1,0 +1,127 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 4rem;
+}
+
+.hero {
+  margin-bottom: 3rem;
+}
+
+.hero__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6b7280;
+  margin: 0 0 0.75rem;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 6vw, 3.25rem);
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.hero__tagline {
+  max-width: 52ch;
+  margin: 1rem 0 0;
+  color: #475569;
+  font-size: 1.05rem;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.post {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 2.25rem;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+}
+
+.post h2 {
+  margin: 0 0 1rem;
+  font-size: 1.8rem;
+  color: #111827;
+}
+
+.post p {
+  margin: 0 0 1.5rem;
+  color: #334155;
+}
+
+.post blockquote {
+  margin: 0 0 1.75rem;
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid #2563eb;
+  background: #f1f5f9;
+  border-radius: 12px;
+  color: #1e293b;
+  font-style: italic;
+}
+
+.sidebar {
+  background: rgba(241, 245, 249, 0.8);
+  border: 1px solid #d8dee9;
+  border-radius: 18px;
+  padding: 1.75rem 1.5rem;
+}
+
+.sidebar h3 {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+  color: #0f172a;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.sidebar li {
+  border-radius: 16px;
+  padding: 1rem 1rem 1.1rem;
+  background: #ffffffcc;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(226, 232, 240, 0.7);
+}
+
+.sidebar__date {
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+.sidebar__title {
+  margin: 0;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.sidebar__excerpt {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+  }
+}
